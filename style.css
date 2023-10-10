@@ -1,0 +1,58 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(105, 90, 68);
+    text-align: center;
+}
+h1{
+    font-size: 5rem;
+    color: cadetblue;
+    text-shadow: 1px 1px 1px cadetblue;
+}
+.container{
+    height: 60vh;
+    width: 100%;
+    display: flex;
+    margin-top: 2rem;
+    gap: 10rem;
+    justify-content: center;
+    align-items:flex-start;
+}
+
+.player{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+
+}
+.player h2{
+    font-size: 2rem;
+    color: blanchedalmond;
+}
+
+
+.dice img{
+    width: 300px;
+    height: 300px;
+}
+
+.btn button{
+    margin-top: 6rem;
+    margin-bottom: 2rem;
+    height: 2.5rem;
+    width: 10rem;
+    background-color: brown;
+    display: inline-block;
+    padding: 0.5rem;
+    text-align: center;
+    border: none;
+    font-size: 1rem;
+    color: white;
+    font-weight: 600;
+}
+
+.winner h3{
+    color: blanchedalmond;
+    font-size: 3rem;
+    text-shadow: 2px 2px 2px blanchedalmond;
+}
